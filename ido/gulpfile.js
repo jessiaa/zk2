@@ -8,8 +8,8 @@ gulp.task("server", function() {
             open: true,
             livereload: true,
             proxies: [{
-                source: "/users/api/data",
-                target: "http://169.254.172.115:3000//users/api/data"
+                source: "/api/data",
+                target: "http://169.254.172.115:3000/users/api/data"
             }]
         }))
 })
